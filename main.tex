@@ -1,0 +1,63 @@
+\documentclass[11pt,a4paper]{memoir}
+
+\setstocksize{55mm}{85mm} % UK Stock size
+\setpagecc{55mm}{85mm}{*}
+\settypeblocksize{45mm}{75mm}{*}
+\setulmargins{5mm}{*}{*}
+\setlrmargins{5mm}{*}{*}
+\usepackage{xcolor}
+
+\setheadfoot{0.1pt}{0.1pt}
+\setheaderspaces{1pt}{*}{*}
+\usepackage{fontspec}
+\setmainfont[]{EBGaramond12-Regular.ttf} 
+
+\checkandfixthelayout[fixed]
+
+\pagestyle{empty}
+
+\usepackage{pstricks}
+\usepackage{auto-pst-pdf,pst-barcode}
+\definecolor{bleudefrance}{rgb}{0.19,0.55,0.91}
+\begin{document}
+    \begin{Spacing}{0.75}%
+    \noindent
+    \textcolor{bleudefrance}{\textbf{Patanjali SLPSK}}\\
+    \tiny Ph.D. Scholar, RISE Lab, IIT Madras \\ %\hfill {\color{bleudefrance}Ph.D. Student / IIT Madras}\\ 
+    \rule{74mm}{.3mm}\\
+    \begin{minipage}[t]{33mm}
+        \vspace{-0mm}%
+      \textcolor{black}{\normalsize{\textbf{Research Interests}}}\\
+      {\scriptsize
+  \begin{Spacing}{1}%
+            
+                 Energy Efficient Computing\\
+                 Hardware Security\\
+                 Computer Architecture \\
+            
+
+            
+            \end{Spacing}
+        }
+    \end{minipage}
+    \hspace{1mm}
+    \begin{minipage}[t]{42mm}
+        \vspace{-0mm}%
+        \begin{flushleft}
+       
+        {\tiny
+        	\begin{tabular}{rl}
+            	{\color{gray}web} & https://patanjali.github.io/\\
+            	{\color{gray}email} & cs12d024@smail.iitm.ac.in\\
+            	{\color{gray}email} & patanjali.slpsk@gmail.com\\
+            	
+            \end{tabular}
+            \vspace*{2mm}
+        }
+        \end{flushleft}
+    \end{minipage}
+    \rule{74mm}{0mm}\\
+    \textcolor{gray}{\textbf{Visit my work at:}}\\
+    \url{https://github.com/patanjali} % GPG KEY ID
+    \end{Spacing}
+\end{document}
